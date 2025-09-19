@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria Romana</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Pizzaria Romana</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="cardapio.html">Cardápio</a></li>
+                <li><a href="contato.html">contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <img src="IMG/logo pizzaria.png" alt="Logo da Pizzaria Romana" width="200" height="200">
+            <p>A Pizzaria Romana traz o verdadeiro sabor da Itália: pizzas artesanais assadas em forno à lenha, massa de longa fermentação e ingredientes frecos.</p>
+
+            <p style="border: 3px solid #b30000; padding: 10px; display:inline-block;">
+                Promoção: Terça da Pizza - Peça 1, leve 2!
+            </p>
+        </section>
+
+        <section>
+            <h2>Por que escolher a Romana?</h2>
+            <ul>
+                <li>Massa artesanal de fermentação natural</li>
+                <li>Forno à lenha que garante crocância única</li>
+                <li>Receitas tradicionais com um toque contemporâneo</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="ano"></span> Pizzaria Romana — Rua das Tradições 45, Recife</p>
+    </footer>
+
+    <script>
+        document.getElementById('ano').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

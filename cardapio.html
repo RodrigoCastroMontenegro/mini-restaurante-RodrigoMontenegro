@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cardápio - Pizzaria Romana</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .cardapio-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+    }
+    .cardapio-table th, .cardapio-table td {
+      border: 1px solid #444;
+      padding: 8px;
+    }
+    .sugestoes { margin-top: 1rem; }
+    .pratos img {
+      max-width: 100%;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Cardápio — Pizzaria Romana</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="cardapio.html">Cardápio</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Nossas Pizzas</h2>
+      <table class="cardapio-table">
+        <thead>
+          <tr>
+            <th>Pizza</th>
+            <th>Descrição</th>
+            <th>Preço</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Margherita</td>
+            <td>Molho de tomate, mozzarella, manjericão</td>
+            <td>R$ 39,90</td>
+          </tr>
+          <tr>
+            <td>Pepperoni</td>
+            <td>Molho, queijo e generosas fatias de pepperoni</td>
+            <td>R$ 42,00</td>
+          </tr>
+          <tr>
+            <td>Quattro Formaggi</td>
+            <td>Mix de queijos: mozzarella, gorgonzola, parmesão, provolone</td>
+            <td>R$ 45,00</td>
+          </tr>
+          <tr>
+            <td>Calabresa</td>
+            <td>Calabresa artesanal, cebola e azeitona preta</td>
+            <td>R$ 40,00</td>
+          </tr>
+          <tr>
+            <td>Romana</td>
+            <td>Molho de tomate, anchovas, azeitonas e alho</td>
+            <td>R$ 46,00</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="sugestoes">
+      <h3>Sugestões do Chef</h3>
+      <ol>
+        <li>Quattro Formaggi com vinho tinto da casa</li>
+        <li>Margherita com azeite trufado</li>
+        <li>Romana tradicional com borda recheada</li>
+      </ol>
+    </section>
+
+    <section class="pratos">
+      <h3>Fotos</h3>
+      <figure>
+        <img src="img/pizza1.jpg" alt="Pizza Margherita">
+        <figcaption>Pizza Margherita</figcaption>
+      </figure>
+      <figure>
+        <img src="img/pizza2.png" alt="Pizza Pepperoni">
+        <figcaption>Pizza Pepperoni</figcaption>
+      </figure>
+    </section>
+
+    <section>
+      <p>Siga nossa página no Instagram e veja as novidades:</p>
+      <p><a href="https://www.instagram.com" target="_blank" rel="noopener">Instagram da Pizzaria Romana</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Pizzaria Romana • Tradição italiana em Recife</p>
+  </footer>
+</body>
+</html>
